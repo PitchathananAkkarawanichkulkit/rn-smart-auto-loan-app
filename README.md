@@ -1,50 +1,19 @@
-# Welcome to your Expo app 👋
+# 🚗 Smart Auto Loan (แอปพลิเคชันคำนวณค่างวดรถ)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+แอปพลิเคชันตัวช่วยสำหรับคนอยากมีรถ ที่ช่วยให้การวางแผนออกรถเป็นเรื่องง่าย! คำนวณค่างวดรถยนต์เบื้องต้นได้อย่างรวดเร็วและแม่นยำ เพียงกรอกราคารถ เลือกเงินดาวน์ ระยะเวลาผ่อน และอัตราดอกเบี้ย พัฒนาด้วย **React Native (Expo)**
 
-## Get started
+## ✨ ฟีเจอร์หลัก (Features)
+- 💰 **คำนวณค่างวดรายเดือน:** คำนวณยอดจัดไฟแนนซ์และค่างวดที่ต้องผ่อนชำระต่อเดือนได้อย่างชัดเจน
+- 📊 **ปรับแต่งเงื่อนไขได้อิสระ:** - เลือกสัดส่วนเงินดาวน์ได้ตามต้องการ (5%, 10%, 15%, 20%, 25%, 30%)
+  - เลือกระยะเวลาการผ่อนชำระได้หลากหลาย (24, 36, 48, 60, 72, 84 งวด)
+- 🧮 **รองรับอัตราดอกเบี้ยจริง:** สามารถระบุอัตราดอกเบี้ย (% ต่อปี) เพื่อความแม่นยำในการคำนวณ
+- 🎨 **UI/UX ทันสมัย:** ดีไซน์สวยงาม ใช้งานง่าย พร้อมการแสดงผลลัพธ์ที่อ่านง่ายสบายตา
+- ⚡ **Navigation ลื่นไหล:** เปลี่ยนหน้าระหว่างหน้ากรอกข้อมูลและหน้าแสดงผลลัพธ์ได้อย่างรวดเร็วด้วย Expo Router
 
-1. Install dependencies
+## 📱 ภาพหน้าจอ (Screenshots)
 
-   ```bash
-   npm install
-   ```
+| หน้า Splash Screen | หน้ากรอกข้อมูลคำนวณ | หน้าสรุปผลลัพธ์ |
+| :---: | :---: | :---: |
+| <img width="200"  alt="6648_0" src="https://github.com/user-attachments/assets/f391a997-c845-4352-870e-91ebd6380e51" />|<img width="200"  alt="6650_0" src="https://github.com/user-attachments/assets/5fd8d420-cb65-4905-8218-4f5f3561ed84" />| <img width="200"  alt="6649_0" src="https://github.com/user-attachments/assets/db8b51c4-6510-443d-88c2-ccf8d599bc76" />|
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
